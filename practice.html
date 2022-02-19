@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <span> this is my first paragraph</span>
+    <span><h1>i have a idea</h1></span>
+   <span> this is my second paragraph</span>
+   <button id="increment-btn">3</button>
+<script>
+	const incrementButton = document.getElementById("increment-btn")
+    incrementButton.addEventListener("click", function () { 
+    incrementButton.innerText = parseInt(incrementButton.innerText)+3;
+    const showValue = incrementButton.innerText;
+    // console.log(showValue); 
+    }) 
+    let count = 0;
+    const stringNumber = "count"+ 1
+    const value = pars(stringNumber);
+    // console.log(value);
+    
+</script>
+</body>
+</html>
